@@ -1,0 +1,22 @@
+{
+	"Crew Cheif": 6,
+	"Muscle": 5,
+	"Armourer": 7,
+	"Rogue": 10,
+	"Crook": 6,
+	"Hitman": 5,
+	"Burglar": 4,
+	"Infiltrator": 3,
+	"Sociopath": 5,
+	"Gambler": 2,
+	"Yakuza": 1,
+	"Ex-President": 6,
+	"Maniac": 7,
+	"Anarchist": 8,
+	"Biker": 1,
+	"Kingpin": [9, "Kingpin Injector"],
+	"Sicario": [7, "Smoke Bomb"],
+	"Stoic": [9, "Stoic's Hip Flask"],
+	"Tag Team": [-1, "Gas Dispenser"],
+	"Hacker": [10, "Pocket ECM"]
+}

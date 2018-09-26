@@ -1,0 +1,15 @@
+{
+	"loud": [
+		"Ammo Bag",
+		"Doctor Bag",
+		"ECM Jammer",
+		"First Aid Kit",
+		"Sentry Gun",
+		"Trip Mine" 
+	],
+	"stealth": [
+		"Body Bag Case",
+		"ECM Jammer",
+		"Trip Mine"
+	]
+}

@@ -1,0 +1,368 @@
+[
+	{
+		"name": "Aftershock",
+		"days": 1,
+		"difficulty": [6, null],
+		"contractor": "Vlad"
+	},
+	{
+		"name": "Alaskan Deal",
+		"days": 1,
+		"difficulty": [4, null],
+		"contractor": "Locke"
+	},
+	{
+		"name": "Art Gallery",
+		"days": 1,
+		"difficulty": [2, 4],
+		"contractor": "Bain"
+	},
+	{
+		"name": ["Bank Heist", "Deposit", "Cash", "Random", "Gold"],
+		"days": 1,
+		"difficulty": [3, 2],
+		"contractor": "Bain"
+	},
+	{
+		"name": "Beneath the Mountain",
+		"days": 1,
+		"difficulty": [5, null],
+		"contractor": "Locke"
+	},
+	{
+		"name": "Big Oil",
+		"days": 2,
+		"difficulty": [4, 5],
+		"contractor": "Elephant"
+	},
+	{
+		"name": "Birth of Sky",
+		"days": 1,
+		"difficulty": [8, null],
+		"contractor": "Locke"
+	},
+	{
+		"name": "Boiling Point",
+		"days": 1,
+		"difficulty": [6, null],
+		"contractor": "Jimmy"
+	},
+	{
+		"name": "Breaking Feds",
+		"days": 1,
+		"difficulty": [null, 6],
+		"contractor": "Locke"
+	},
+	{
+		"name": "Brookyn 10-10",
+		"days": 1,
+		"difficulty": [6, null],
+		"contractor": "Continental"
+	},
+	{
+		"name": "Brookyn Bank",
+		"days": 1,
+		"difficulty": [4, null],
+		"contractor": "Locke"
+	},
+	{
+		"name": "Car Shop",
+		"days": 1,
+		"difficulty": [null, 5],
+		"contractor": ""
+	},
+	{
+		"name": "Cook Off",
+		"days": 1,
+		"difficulty": [5, null],
+		"contractor": "Bain"
+	},
+	{
+		"name": "Counterfeit",
+		"days": 1,
+		"difficulty": [4, null],
+		"contractor": "Classics"
+	},
+	{
+		"name": "Diamond Heist",
+		"days": 1,
+		"difficulty": [4, 5],
+		"contractor": "Classics"
+	},
+	{
+		"name": "Diamond Store",
+		"days": 1,
+		"difficulty": [3, 2],
+		"contractor": "Bain"
+	},
+	{
+		"name": "Election Day",
+		"days": 2,
+		"difficulty": [4, 5],
+		"contractor": "Elephant"
+	},
+	{
+		"name": "Firestarter",
+		"days": 3,
+		"difficulty": [4, 4],
+		"contractor": "Hector"
+	},
+	{
+		"name": "First World Bank",
+		"days": 1,
+		"difficulty": [4, 6],
+		"contractor": "Classics"
+	},
+	{
+		"name": "Four Stores",
+		"days": 1,
+		"difficulty": [1, 1],
+		"contractor": "Vlad"
+	},
+	{
+		"name": "Framing Frame",
+		"days": 3,
+		"difficulty": [4, 6],
+		"contractor": "Elephant"
+	},
+	{
+		"name": "GO Bank",
+		"days": 1,
+		"difficulty": [3, 2],
+		"contractor": "Bain"
+	},
+	{
+		"name": "Goat Simulator",
+		"days": 2,
+		"difficulty": [10, null],
+		"contractor": "Vlad"
+	},
+	{
+		"name": "Golden Grin Casino",
+		"days": 1,
+		"difficulty": [5, 9],
+		"contractor": "Dentist"
+	},
+	{
+		"name": "Green Bridge",
+		"days": 1,
+		"difficulty": [8, null],
+		"contractor": "Classics"
+	},
+	{
+		"name": "Heat Street",
+		"days": 1,
+		"difficulty": [9, null],
+		"contractor": "Classics"
+	},
+	{
+		"name": "Henry's Rock",
+		"days": 1,
+		"difficulty": [5, null],
+		"contractor": "Locke"
+	},
+	{
+		"name": "Hotline Miami",
+		"days": 2,
+		"difficulty": [5, null],
+		"contractor": "Dentist"
+	},
+	{
+		"name": "Hoxton Breakout",
+		"days": 2,
+		"difficulty": [5, null],
+		"contractor": "Dentist"
+	},
+	{
+		"name": "Hoxton Revenge",
+		"days": 1,
+		"difficulty": [4, 4],
+		"contractor": "Dentist"
+	},
+	{
+		"name": "Jewelry Store",
+		"days": 1,
+		"difficulty": [1, 1],
+		"contractor": "Bain"
+	},
+	{
+		"name": "Lab Rats",
+		"days": 1,
+		"difficulty": [10, null],
+		"contractor": "Events"
+	},
+	{
+		"name": "Mallcrasher",
+		"days": 1,
+		"difficulty": [2, 3],
+		"contractor": "Vlad"
+	},
+	{
+		"name": "Meltdown",
+		"days": 1,
+		"difficulty": [8, null],
+		"contractor": "Vlad"
+	},
+	{
+		"name": "Murky Station",
+		"days": 1,
+		"difficulty": [null, 4],
+		"contractor": "Jimmy"
+	},
+	{
+		"name": "Nightclub",
+		"days": 1,
+		"difficulty": [2, 2],
+		"contractor": "Vlad"
+	},
+	{
+		"name": "Panic Room",
+		"days": 1,
+		"difficulty": [5, null],
+		"contractor": "Classics"
+	},
+	{
+		"name": "Prison Nightmare",
+		"days": 1,
+		"difficulty": [4, null],
+		"contractor": "Events"
+	},
+	{
+		"name": "Rats",
+		"days": 3,
+		"difficulty": [5, null],
+		"contractor": "Hector"
+	},
+	{
+		"name": "Reservoir Dogs Heist",
+		"days": 2,
+		"difficulty": [7, null],
+		"contractor": "Bain"
+	},
+	{
+		"name": "Safe House Nightmare",
+		"days": 1,
+		"difficulty": [7, null],
+		"contractor": "Events"
+	},
+	{
+		"name": "Safe House Raid",
+		"days": 1,
+		"difficulty": [3, null],
+		"contractor": "Hoxton"
+	},
+	{
+		"name": "Santa's Workshop",
+		"days": 1,
+		"difficulty": [4, null],
+		"contractor": "Butcher"
+	},
+	{
+		"name": "Scarface Mansion",
+		"days": 1,
+		"difficulty": [5, 8],
+		"contractor": "Butcher"
+	},
+	{
+		"name": "Shacklethorne Auction",
+		"days": 1,
+		"difficulty": [4, 5],
+		"contractor": "Locke"
+	},
+	{
+		"name": "Shadow Raid",
+		"days": 1,
+		"difficulty": [null, 4],
+		"contractor": "Bain"
+	},
+	{
+		"name": "Slaughterhouse",
+		"days": 1,
+		"difficulty": [7, null],
+		"contractor": "Classics"
+	},
+	{
+		"name": "Stealing Xmas",
+		"days": 1,
+		"difficulty": [3, null],
+		"contractor": "Vlad"
+	},
+	{
+		"name": "The Alesso Heist",
+		"days": 1,
+		"difficulty": [5, 8],
+		"contractor": "Bain"
+	},
+	{
+		"name": "The Big Bank",
+		"days": 1,
+		"difficulty": [5, 7],
+		"contractor": "Dentist"
+	},
+	{
+		"name": "The Biker Heist",
+		"days": 2,
+		"difficulty": [8, null],
+		"contractor": "Elephant"
+	},
+	{
+		"name": "The Bomb: Dockyard",
+		"days": 1,
+		"difficulty": [5, 5],
+		"contractor": "Butcher"
+	},
+	{
+		"name": "The Bomb: Forest",
+		"days": 1,
+		"difficulty": [8, null],
+		"contractor": "Butcher"
+	},
+	{
+		"name": "The Diamond",
+		"days": 1,
+		"difficulty": [4, 5],
+		"contractor": "Dentist"
+	},
+	{
+		"name": "The Yacht Heist",
+		"days": 1,
+		"difficulty": [null, 3],
+		"contractor": "Continental"
+	},
+	{
+		"name": ["Transport", "Crossroads", "Downtown", "Harbor", "Park", "Underpass"],
+		"days": 1,
+		"difficulty": [3, null],
+		"contractor": "Bain"
+	},
+	{
+		"name": "Transport: Train Heist",
+		"days": 1,
+		"difficulty": [4, 6],
+		"contractor": "Bain"
+	},
+	{
+		"name": "Ukrainian Job",
+		"days": 1,
+		"difficulty": [1, 1],
+		"contractor": "Vlad"
+	},
+	{
+		"name": "Undercover",
+		"days": 1,
+		"difficulty": [5, null],
+		"contractor": "Classics"
+	},
+	{
+		"name": "Watchdogs",
+		"days": 2,
+		"difficulty": [4, null],
+		"contractor": "Hector"
+	},
+	{
+		"name": "White Xmas",
+		"days": 1,
+		"difficulty": [5, null],
+		"contractor": "Vlad"
+	}
+]
