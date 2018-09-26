@@ -2,7 +2,7 @@
 * Download [Node.js](https://nodejs.org/en/) recommended version
 * Open command prompt and go to the directory you have the files in. To do this type **cd** then the directory
 * Type **npm install** to install all the dependencies
-* Double click the start.bat each time you want to open it
+* Run start.bat to open it
 
 # How to use:
 * Type what you want to randomize
@@ -11,7 +11,7 @@
 # Commands:
 * help - Displays all commands
 * close - Closes the process
-* all - Random 1 of everything
+* all - Random everything
 * heist - Random Heist
 * perk - Random Perk Deck
 * primary - Random Primary Gun

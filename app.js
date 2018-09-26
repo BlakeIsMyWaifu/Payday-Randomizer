@@ -18,6 +18,7 @@ function removeDup(a) {
 		return a.indexOf(i) == p;
 	});
 }
+var g = m => chalk.green(m) + chalk.cyanBright(' - ');
 var x = {};
 
 var randomizer; (randomizer = function randomizer() {
@@ -71,7 +72,7 @@ x.help = function () {
 	];
 	let cmdArr = [];
 	cmds.forEach(function(cmd) {
-		cmdArr.push(chalk.green(cmd[0]) + ` - ${cmd[1]}`);
+		cmdArr.push(g(cmd[0]) + cmd[1]);
 	});
 	return cmdArr.join('\n');
 };
@@ -82,24 +83,21 @@ x.close = function () {
 };
 
 x.all = function () {
+	let h = heists.random().name;
+	h = typeof h === 'string' ? h : `${h[0]}: ${h.randomNotFirst()}`
 	let a = [
-		heists.random().name,
-		x.perk([]).split(' (')[0],
-		x.weapon([], primary),
-		x.weapon([], secondary),
+		g('Heist') + (typeof h === 'string' ? h : `${h[0]}: ${h.randomNotFirst()}`),
+		g('Perk Deck') + x.perk([]).split(' (')[0],
+		g('Primary') + x.weapon([], primary),
+		g('Secondary') + x.weapon([], secondary),
 	];
-	let perk = a[1].split(' (')[0];
-	if (typeof perkDecks[perk] === 'number') a.push(x.throwable([]));
-	let tactic = a[0].split('- ');
-	if (tactic[a[0].split('- ').length - 1].startsWith('Stealth')) {
-		if (tactic[a[0].split('- ').length - 2].startsWith('Loud')) {
-			a.push(x.deployable(['both']));
-		} else {
-			a.push(x.deployable(['stealth']));
-		}
+	if (typeof perkDecks[a[1].split('- ')[1].replace('\u001b[39m', '')] === 'number') {
+		a.push(g('Throwable') + x.throwable([]));
 	} else {
-		a.push(x.deployable(['loud']));
+		a.push(g('Throwable') + perkDecks[a[1].split('- ')[1].replace('\u001b[39m', '')][1]);
 	}
+	var t = heists.find(ht => typeof ht.name === 'string' ? h.startsWith(ht.name) : h.startsWith(ht.name[0]));
+	a.push(g('Deployable')+(t.difficulty[0]===null?x.deployable(['s']):(t.difficulty[1]===null?x.deployable([]):x.deployable(['b']))));
 	return a.join('\n');
 }
 
