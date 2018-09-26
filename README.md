@@ -2,8 +2,7 @@
 * Download [Node.js](https://nodejs.org/en/) recommended version
 * Open command prompt and go to the directory you have the files in. To do this type **cd** then the directory
 * Type **npm install** to install all the dependencies
-* Open start.bat in a text editor and add the directory you have it installed inside the quotation marks
-* Double click the start.bat each time you want to open it
+* run start.bat to open it
 
 # How to use:
 * Type what you want to randomize
